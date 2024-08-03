@@ -1,0 +1,42 @@
+*{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(95, 158, 160,0.1);
+}
+header{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(95, 158, 160,0.6);
+}
+img{
+    height: 270px; 
+    width: 270px;
+    transition: 1.5s ease;
+}
+p{
+    border-radius: 10px;
+}
+img,p{
+    border: 2px rgba(28, 27, 27,0.9);
+}
+img:hover{
+    height: 450px;
+    width: 450px;   
+
+}
+section{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+main{
+    display: flex;
+    flex-basis: 23%;
+    justify-content: space-evenly;
+}
